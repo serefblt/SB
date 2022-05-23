@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CircleRotation : MonoBehaviour
 {
-    [SerializeField] float _CircleSpeed;
+    [SerializeField] public float _CircleSpeed;
 
 
     private void Update()
