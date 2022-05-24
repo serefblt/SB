@@ -30,8 +30,8 @@ public class Arrow : MonoBehaviour
         {
             transform.SetParent(collision.transform);
             //collision.GetComponent<CircleRotation>()._CircleSpeed *= -1; vurduðumuzda diðer yine dönüyor
-            Score.ArrowCount++;
-          
+       
+            Score._ArrowCount--;
             isPinned = true;
         }
         else if (collision.gameObject.CompareTag("Arrow"))
